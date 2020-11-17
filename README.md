@@ -1,2 +1,2 @@
 # pyconfig
-Python Environment Variable Configuration Package
+Automatic Python Environment Variable Configuration Package
