@@ -11,13 +11,13 @@ def parse_py(filename):
         lines = [x for x in file.readlines() if x.strip()]
 
     for line in lines:
-        if '=' in line.rsplit('#', 1)[0]:
+        if '=' in line.split('#', 1)[0]:
             k, v = map(lambda x: x.strip(), line.split('=', 1))
             os.environ[k] = str(eval(v))
 
 
 def parse_json_obj(obj):
-    if type(obj) is not dict:
+    if type(obj) != dict:
         raise JSONConfigError
 
     for k, v in obj:
