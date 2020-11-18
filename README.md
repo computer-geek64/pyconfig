@@ -72,7 +72,7 @@ Ashish D'Souza - [@computer-geek64](https://github.com/computer-geek64)
 
 ## Releases
 
-The current stable release for **PyConfig** is [v1.0.0](https://github.com/computer-geek64/timelock/releases/latest)
+The current stable release for **PyConfig** is [v1.0.0](https://github.com/computer-geek64/pyconfig/releases/latest)
 
 It is also released as a Python package on [PyPI](https://pypi.org/project/pyconfig-env/) (the Python Package Index).
 
