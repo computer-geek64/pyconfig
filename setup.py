@@ -11,7 +11,7 @@ setuptools.setup(
     name='pyconfig-env',
     version='1.0.0',
     author='Ashish D\'Souza',
-    author_email='adsouza@gatech.edu',
+    author_email='sudouser512@gmail.com',
     description='Automatic Python Environment Variable Configuration',
     long_description=long_description,
     long_description_content_type='text/markdown',
